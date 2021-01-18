@@ -25,6 +25,9 @@ template class basic_string<char>; // https://github.com/esp8266/Arduino/issues/
   }
   to ~/Library/Arduino15/packages/arduino/tools/arm-none-eabi-gcc/4.8.3-2014q1/arm-none-eabi/include/c++/4.8.3/bits/basic_string.h
   Or the code won't compile.
+  |====================================|
+  |-----> normally not need with ESP32!|
+  |====================================|
 */
 
 #define REG_OCP 0x0B
